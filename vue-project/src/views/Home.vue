@@ -49,7 +49,7 @@ import 'swiper/css/pagination';
         .departure
           p оперативный выезд
     .wrapper
-      h1.h1 Компьютерный мастер г. Архангельск
+      h1.h1 Компьютерный мастер г.&nbspАрхангельск
     section.slider
       swiper.swiper(:modules="modules"
                     v-bind="swiperConfig" )

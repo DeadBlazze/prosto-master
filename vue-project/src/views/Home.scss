@@ -224,8 +224,11 @@ main{
               }
           }
           .advantages__shiled:hover{
-                  background-color: #e6e6e6;
-              }
+              background-color: #e6e6e6;
+          }
+      }
+      @media(max-width:500px){
+        margin-bottom: 20px;
       }
     }
     .big-text{
@@ -239,6 +242,9 @@ main{
       @media(max-width:600px){
         font-size: 17px;
         line-height: 2.3rem;
+      }
+      @media(max-width:600px){
+        line-height: 2.1rem;
       }
       a{
         color: blue;
