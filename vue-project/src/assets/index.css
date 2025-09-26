@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url('/assets/OpenSans-Regular.ttf') format('truetype');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url('/assets/OpenSans-Medium.ttf') format('truetype');
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url('/assets/OpenSans-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'PT Sans';
+    src: url('/assets/PTSans-Bold.ttf') format('truetype');
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'PT Sans';
+    src: url('/assets/PTSans-Regular.ttf') format('truetype');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'PT Sans';
+    src: url('/assets/PTSans-Bold.ttf') format('truetype');
+    font-weight: 700;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans';
+}
+a{
+    text-decoration: none;
+}
+.wrapper{
+    padding: 0 15%;
+    @media (max-width:1000px){
+        padding: 0 7%;
+    }
+}
