@@ -58,22 +58,22 @@ import 'swiper/css/pagination';
         .swiper-button-prev
           img(src='@/assets/images/arrowLeft.svg')                 
         swiper-slide.slider__item
-          img(src='@/assets/images/buildAndChange.png', alt="alt")
+          img(src='@/assets/images/buildAndChange.jpg', alt="alt")
           p Сборка, замена комплектующих
         swiper-slide.slider__item
-          img(src='@/assets/images/PCbuild.png', alt="alt")
+          img(src='@/assets/images/PCbuild.jpg', alt="alt")
           p Сборка ПК под ключ
         swiper-slide.slider__item
           img(src='@/assets/images/windows.jpg', alt="alt")
           p Установка Windows
         swiper-slide.slider__item
-          img(src='@/assets/images/TV1.png', alt="alt")
+          img(src='@/assets/images/TV1.jpg', alt="alt")
           p Настройка smartTV
         swiper-slide.slider__item
-          img(src='@/assets/images/remont.webp', alt="alt")
+          img(src='@/assets/images/remont.jpg', alt="alt")
           p Ремонт комплектующих
         swiper-slide.slider__item
-          img(src='@/assets/images/drivers.jpg', alt="alt")
+          img(src='@/assets/images/drivers1.jpg', alt="alt")
           p Инсталляция драйверов
     section.sale
       .wrapper
@@ -105,7 +105,7 @@ import 'swiper/css/pagination';
           | ☎️ Бесплатная предварительная консультация перед началом работ. Не откладывайте решение проблем с оборудованием — звоните прямо сейчас!<br>
         a(href='https://t.me/Dblze_work') 
           img(src='@/assets/images/tg-icon.webp')
-          p Написать в телеграмм
+          p Написать в телеграм
     .banner
       .banner__inner
         a.header__tel(href='tel:+79009205567' title='Вызвать мастера')
